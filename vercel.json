@@ -1,0 +1,13 @@
+{
+  "crons": [
+    {
+      "path": "/api/getData",
+      "schedule": "*/1 * * * *"
+    }
+  ],
+  "functions": {
+    "api/**/*.js": {
+      "regions": ["fra1"]
+    }
+  }
+}
